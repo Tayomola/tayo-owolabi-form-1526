@@ -109,9 +109,7 @@ input#send:hover {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+   
 }
     
     input#email {
@@ -119,15 +117,14 @@ input#send:hover {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  
 }
 
 
 @media only screen and (min-width: 50rem){
 	.wrapper {
-		width: 50rem;
+	width: 50rem;
+	align-content: center;
         margin: 1em auto;   
 	}
     
@@ -149,9 +146,6 @@ input#send:hover {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
     
     input#email {
@@ -159,10 +153,25 @@ input#send:hover {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
 
-    
+}
+
+@media only screen and (min-width:25rem and 40rem) {
+   .wrapper {
+	width: 40rem;
+        margin: 1em auto;   
+	}
 	
+  .name {
+        float: left;
+        width: 50%;
+        padding-right: 2px;
+    }
+
+    .mail {
+        float: right;
+        width: 50%;
+        padding-left: 2px;
+    }
+}
